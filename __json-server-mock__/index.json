@@ -1,3 +1,28 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": 1,
+      "name": "张三"
+    },
+    {
+      "id": 2,
+      "name": "李四"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "骑手管理",
+      "personId": 1,
+      "organization": "外卖组",
+      "created": 12344522441
+    },
+    {
+      "id": 2,
+      "name": "骑手管理",
+      "personId": 2,
+      "organization": "外卖组",
+      "created": 12344522442
+    }
+  ]
 }
