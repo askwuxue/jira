@@ -1,4 +1,6 @@
-export const List = ({ list, users }) => {
+import { IListProps } from "../type/interface";
+
+export const List = ({ list, users }: IListProps) => {
   return (
     <table>
       <thead>

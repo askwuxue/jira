@@ -14,7 +14,7 @@ export const ProjectList = () => {
   });
 
   // debounce 返回值
-  const debounceParam = useDebounce(param, 2000);
+  const debounceParam = useDebounce(param, 500);
 
   // 列表
   const [list, setList] = useState([]);

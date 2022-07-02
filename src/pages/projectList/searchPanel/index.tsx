@@ -1,4 +1,6 @@
-export const SearchPanel = ({ users, param, setParam }) => {
+import { ISearchPanelProps } from "../type/interface";
+
+export const SearchPanel = ({ users, param, setParam }: ISearchPanelProps) => {
   return (
     <form>
       <input
